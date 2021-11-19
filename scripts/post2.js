@@ -46,11 +46,11 @@ var editsaveBtn = document.getElementById("edit-btn");
 editsaveBtn.onclick = function(){
     if (editsaveBtn.innerHTML === "Edit"){
         document.getElementById("main-para").contentEditable = "true";          /*contenteditable set to true turns test into editable mode*/ 
-        document.getElementById("main-para").style.border = "2px solid rgba(170, 170, 170, 0.5)";       /*changed borderes to match the sample page*/ 
+        document.getElementById("main-para").style.border = "2px solid red";       /*changed borderes to match the sample page*/ 
         document.getElementById("main-heading").contentEditable = "true";
         document.getElementById("author").contentEditable = "true";                /*contenteditable set to true turns test into editable mode*/ 
-        document.getElementById("main-heading").style.border = "2px solid pink";
-        document.getElementById("author").style.border = "2px solid pink";      /*changed borderes to match the sample page*/ 
+        document.getElementById("main-heading").style.border = "2px solid red";
+        document.getElementById("author").style.border = "2px solid red";      /*changed borderes to match the sample page*/ 
         editsaveBtn.innerHTML = "Save";                                             /*CHanged the text inside the button to save */
     } else {
         document.getElementById("main-para").contentEditable = "false";         /*contenteditable set to false reverts editable mode to normal*/ 
