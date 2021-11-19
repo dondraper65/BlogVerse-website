@@ -201,7 +201,6 @@ form p{
 /*Small visual changes when width of the screen is reduced for better visual appeal*/
 
 @media (max-width: 800px) {
-
     .leftspace{
         font-size: 10px;
         margin-right: 0;
@@ -211,6 +210,7 @@ form p{
     }
 
 }
+
 
 /*Small visual changes for modal form width when width of the screen is reduced for better visual appeal*/
 
@@ -226,6 +226,7 @@ form p{
         width: 80%;
     }
 }
+
 
 
 
