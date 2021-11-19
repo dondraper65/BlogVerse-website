@@ -121,6 +121,11 @@ a:hover{
     text-align: center;
 }
 
+span{
+    font-size: medium;
+    margin-right: 10px;
+}
+
 
 form p{
     text-align: center;
