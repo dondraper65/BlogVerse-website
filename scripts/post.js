@@ -17,6 +17,7 @@ signupBtn.onclick = function() {
     signupModal.style.display = "block";
 }
 
+
 signupClose.onclick = function(){
     signupModal.style.display = "none";
 }
