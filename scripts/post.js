@@ -93,8 +93,8 @@ likeBtn.onclick = function(){
 if(document.getElementById("commentSection").innerHTML === ""){
     document.getElementById("commentSection").style.border = 0;
 }
-/*Made sure the most recent comment is added at the top of the comment section */
+/*Made sure the most recent comment is added at the top of the comment section and added date display*/
 function myFunction() {
-    var x = document.getElementById("comment-text").value + Date();
+    var x = document.getElementById("comment-text").value + Date() ;
     document.getElementById("commentSection").innerHTML = '<p id="para" class = "commentPara">'+x+'</p>' + document.getElementById("commentSection").innerHTML;
 }
